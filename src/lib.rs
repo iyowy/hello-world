@@ -8,6 +8,6 @@ fn handle_hello_rust(req: Request) -> anyhow::Result<impl IntoResponse> {
     Ok(Response::builder()
         .status(200)
         .header("content-type", "text/plain")
-        .body("Hello, Fermyon")
+        .body("Hello, Fermyon00")
         .build())
 }
